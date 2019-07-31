@@ -14,3 +14,13 @@
  function police () {
      getid.style.fontFamily= document.getElementById("55").value;;
  }
+ $(".bt").hide();
+ $(".photos").mouseenter(function(){
+     $(this).css("opacity","0.5");
+     $(this).find(".bt").show();
+ });
+ $(".p").mousel$(thiseave(function(){
+    $(this).css("opacity","1");
+    $(this).find(".bt").hide();
+ })
+ 
